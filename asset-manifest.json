@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.49903904.chunk.css",
-    "main.js": "/personal-portfolio/static/js/main.f6968470.chunk.js",
-    "main.js.map": "/personal-portfolio/static/js/main.f6968470.chunk.js.map",
+    "main.css": "/personal-portfolio/static/css/main.e872a891.chunk.css",
+    "main.js": "/personal-portfolio/static/js/main.2aa7d3d9.chunk.js",
+    "main.js.map": "/personal-portfolio/static/js/main.2aa7d3d9.chunk.js.map",
     "runtime-main.js": "/personal-portfolio/static/js/runtime-main.b50c5e76.js",
     "runtime-main.js.map": "/personal-portfolio/static/js/runtime-main.b50c5e76.js.map",
-    "static/js/2.966948a0.chunk.js": "/personal-portfolio/static/js/2.966948a0.chunk.js",
-    "static/js/2.966948a0.chunk.js.map": "/personal-portfolio/static/js/2.966948a0.chunk.js.map",
+    "static/js/2.a550b742.chunk.js": "/personal-portfolio/static/js/2.a550b742.chunk.js",
+    "static/js/2.a550b742.chunk.js.map": "/personal-portfolio/static/js/2.a550b742.chunk.js.map",
     "index.html": "/personal-portfolio/index.html",
-    "precache-manifest.2d91bb189b7b05f6d37b8abd5f5f802f.js": "/personal-portfolio/precache-manifest.2d91bb189b7b05f6d37b8abd5f5f802f.js",
+    "precache-manifest.10eb89732ddd6fd6631f1623ecd78da7.js": "/personal-portfolio/precache-manifest.10eb89732ddd6fd6631f1623ecd78da7.js",
     "service-worker.js": "/personal-portfolio/service-worker.js",
-    "static/css/main.49903904.chunk.css.map": "/personal-portfolio/static/css/main.49903904.chunk.css.map",
-    "static/js/2.966948a0.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.966948a0.chunk.js.LICENSE.txt",
+    "static/css/main.e872a891.chunk.css.map": "/personal-portfolio/static/css/main.e872a891.chunk.css.map",
+    "static/js/2.a550b742.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.a550b742.chunk.js.LICENSE.txt",
     "static/media/index.css": "/personal-portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/bauddhikgeeks-transparent.png": "/personal-portfolio/static/media/bauddhikgeeks-transparent.074c759b.png",
     "static/media/bauddhikgeeks.png": "/personal-portfolio/static/media/bauddhikgeeks.f2d490dc.png",
@@ -37,6 +37,7 @@
     "static/media/nightowls.jpg": "/personal-portfolio/static/media/nightowls.5dcd18d0.jpg",
     "static/media/postman.jpg": "/personal-portfolio/static/media/postman.22f11067.jpg",
     "static/media/postman.png": "/personal-portfolio/static/media/postman.c108f557.png",
+    "static/media/react-native-logo.png": "/personal-portfolio/static/media/react-native-logo.ec97bef1.png",
     "static/media/skillenza.png": "/personal-portfolio/static/media/skillenza.7b7a76ef.png",
     "static/media/ssec.png": "/personal-portfolio/static/media/ssec.8901092d.png",
     "static/media/ssgandhy.png": "/personal-portfolio/static/media/ssgandhy.894ef0fc.png",
@@ -45,8 +46,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b50c5e76.js",
-    "static/js/2.966948a0.chunk.js",
-    "static/css/main.49903904.chunk.css",
-    "static/js/main.f6968470.chunk.js"
+    "static/js/2.a550b742.chunk.js",
+    "static/css/main.e872a891.chunk.css",
+    "static/js/main.2aa7d3d9.chunk.js"
   ]
 }
