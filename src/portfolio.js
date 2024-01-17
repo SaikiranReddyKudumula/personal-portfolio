@@ -205,13 +205,30 @@ const degrees = {
     },
     {
       title: "Vellore Institute of Technology",
-      subtitle: "Master of Technology in Software Engineering",
+      subtitle: "M.Tech Software Engineering (5 Year Integrated Programme)",
       logo_path: "vellore_univ.png",
       alt_name: "SSGC",
       duration: "2014 - 2019",
       cgpa: "8.0 / 8.0",
-      descriptions: [],
-      website_link: "http://www.vit.ac.in/",
+      descriptions: [
+        "⚡I have secured 8.00 CGPA.",
+        "Applied Discrete Mathematical Structures",
+        "Applications of Differential and Difference Equations",
+        "Database Management Systems",
+        "Computer Architecture and Organization",
+        "Theory of Computation",
+        "Programming in Java",
+        "Software Engineering",
+        "Data Structures and Algorithms",
+        "Computer Networks",
+        "Software Testing",
+        "Software Project Management",
+        "Software Construction and Maintenance",
+        "Information and System Security",
+        "Software Design and Development Project",
+      ],
+      website_link:
+        "https://vit.ac.in/schools/school-of-computer-science-engineering-and-information-systems-for-pg-courses",
     },
   ],
 };
@@ -417,10 +434,10 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "Keep Calm and Carry On",
+      name: "Vehicle Rental Booking App",
       url: "https://github.com/harikanani/Keep-Calm-and-Carry-On.github.io",
       description:
-        "This platform enables users to practice Augmented Reality meditation, play stress burster games, track task completion and engage in motivational exercises to cope with stress and anxiety at work.  ",
+        "As the lead developer for this project, I conceptualized and implemented a robust micro-mobility solution tailored for large university campuses and IT parks. The application, named Autorent, facilitates short-term electric scooter and bike rentals, promoting eco-friendly commuting within the campus.",
       languages: [
         {
           name: "HTML5",
@@ -431,25 +448,19 @@ const projects = {
           iconifyClass: "logos-css-3",
         },
         {
+          name: "React",
+          iconifyClass: "skill-icons:react-dark",
+        },
+        {
+          name: "React Native",
+          iconifyClass: "logos-react",
+        },
+        {
           name: "NodeJs",
           iconifyClass: "logos-nodejs",
         },
-        {
-          name: "Augmented Reality",
-          iconifyClass: "bi:badge-ar",
-        },
       ],
       links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/Keep-Calm-and-Carry-On.github.io",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/keep-calm-and-carry-on",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
         {
           name: "Live Demo",
           url:
@@ -460,14 +471,14 @@ const projects = {
     },
     {
       id: "1",
-      name: "YOG4LIFE SOCIAL APP",
+      name: "Connect",
       url: "https://github.com/kevalvavaliya/Yog4Life",
       description:
-        "An app for helping people their healthy life. Yog4Life Has a feed feature which is help to get information from the folks, Yog4Life has an anonymous chat room to get connected with the world.",
+        "Students no longer have to stress about taking notes during lectures. If they miss a class, they can easily catch up with a summary of what was covered. These concise points will help students recall class content efficiently. Additionally, we've incorporated shuttle service details, so staying updated on shuttle times is a breeze. Want to find out which dining hall is serving your favorite dish? Now you can. Plus, the most popular items are prominently displayed for easy selection.",
       languages: [
         {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
+          name: "React",
+          iconifyClass: "logos-react",
         },
         {
           name: "NodeJs",
@@ -476,12 +487,7 @@ const projects = {
       ],
       links: [
         {
-          name: "Github",
-          url: "https://github.com/kevalvavaliya/Yog4Life",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devfolio",
+          name: "Devpost",
           url: "https://devfolio.co/projects/yoglife-b20d",
           iconifyClass: "fluent:window-dev-edit-20-filled",
         },
@@ -489,598 +495,36 @@ const projects = {
     },
     {
       id: "2",
-      name: "Adoptisity",
+      name: "Swara OTT",
       url: "https://github.com/kevalvavaliya/Adoptisity",
       description:
-        "Our mission is to spread awareness about the benefits of adoption and to support LGBT families so that everyone has the chance to have a loving home environment.",
+        "I led the development of a versatile OTT application enabling users to effortlessly access and enjoy podcasts, PDFs, and videos within a unified platform. Additionally, I played a key role in crafting an efficient admin app, empowering content administrators to seamlessly upload, manage, and curate diverse content types for the OTT platform.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Wix",
-          iconifyClass: "bxl:wix",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/Adoptisity",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/adoptisity",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-        {
-          name: "Live Demo",
-          url: "https://rajmahadevwala1.wixsite.com/adoptisity",
-          iconifyClass: "mdi:web",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "FinSplit",
-      url: "https://github.com/rajmahadev8/Fin-Split",
-      description:
-        "Split your bills with your friends without any hassle. Manage Group Expenses, Track your expenses, and much more.",
-      languages: [
-        {
-          name: "ReactJS",
+          name: "React",
           iconifyClass: "logos-react",
         },
         {
           name: "NodeJs",
           iconifyClass: "logos-nodejs",
         },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/rajmahadev8/Fin-Split",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/finsplit",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "Emosic",
-      url: "https://github.com/kevalvavaliya/Emosic",
-      description:
-        "An app that plays music according to your mood. Created a playlist management UI and used SpotifyAPI to control player client based on mood detection using ml model.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/kevalvavaliya/Emosic",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/emosic",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-      ],
-    },
-    {
-      id: "5",
-      name: "Fileblok",
-      url: "https://github.com/harikanani/Fileblok",
-      description:
-        "Keep your projects moving with seamless transfer experice. FileBlok is a file transfer app that allows you to transfer files from one device to another without any hassle. We built this app using Flutter, Node.js and StoryBlok.",
-      languages: [
-        {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "Storyblok",
-          iconifyClass: "logos-storyblok-icon",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/Fileblok",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/fileblok",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "BAUDDIK-GEEKS PORTFOLIO",
-      url: "https://github.com/Bauddhik-Geeks/Bauddhik-Geeks.github.io",
-      description:
-        "Awesome Community Portfolio website for Bauddhik-Geeks community",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
         },
+        {
+          name: "AWS",
+          iconifyClass: "logos:aws",
+        },
       ],
       links: [
         {
-          name: "Github",
-          url: "https://github.com/Bauddhik-Geeks/Bauddhik-Geeks.github.io",
-          iconifyClass: "ri:github-fill",
-        },
-        {
           name: "Live Demo",
-          url: "https://bauddhikgeeks.co/",
+          url: "https://swara.video/",
           iconifyClass: "mdi:web",
         },
       ],
     },
-    {
-      id: "7",
-      name: "Votechain",
-      url: "https://github.com/abhigoyani/votechain",
-      description:
-        "Awesome Community Portfolio website for Bauddhik-Geeks community",
-      languages: [
-        {
-          name: "Flask",
-          iconifyClass: "logos-flask",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "logos-mongodb-icon",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/abhigoyani/votechain",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Swag Store",
-      url: "https://github.com/harikanani/e-commerce-frontend",
-      description:
-        "An E-commerce website built using MERN[Mongo, Express, React, Node] stack and we have also added stripe payment gateway integration [in test mode].",
-      languages: [
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "MedusaJS",
-          iconifyClass: "logos-medusa-icon",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/e-commerce-frontend",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "9",
-      name: "node-blockchain",
-      url: "https://github.com/harikanani/node-blockchain",
-      description:
-        "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "TypeScript",
-          iconifyClass: "skill-icons:typescript",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/node-blockchain",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "Know Me Well",
-      url: "https://github.com/harikanani/personal-portfolio",
-      description:
-        "A simple command line interface based quiz app to know more about me :).",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "Repl.it",
-          iconifyClass: "logos-replit-icon",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/personal-portfolio",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Bloggify",
-      url: "https://github.com/harikanani/Bloggify",
-      description: "A Simple REST API for Blog Application.",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/Bloggify",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "12",
-      name: "Stargazzers",
-      url: "https://github.com/harikanani/stargazers",
-      description: "An Unofficial API for GitHub Repo Stars Count",
-      languages: [
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/stargazers",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "13",
-      name: "GitHub Theme Portfolio",
-      url: "https://github.com/harikanani/harikanani.github.io",
-      description:
-        "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "SCSS",
-          iconifyClass: "vscode-icons:file-type-scss2",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/harikanani.github.io",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Live Demo",
-          url: "https://harikanani.github.io/",
-          iconifyClass: "mdi:web",
-        },
-      ],
-    },
-    // {
-    //   id: "6",
-    //   name: "Automate Attendace",
-    //   url: "https://github.com/harikanani/Node_Python",
-    //   description: "Automation of Online Attendance using node js and python",
-    //   languages: [
-    //     {
-    //       name: "JavaScript",
-    //       iconifyClass: "logos-javascript",
-    //     },
-    //     {
-    //       name: "Python",
-    //       iconifyClass: "logos-python",
-    //     },
-    //   ],
-    //   links: [
-    //     {
-    //       name: "Github",
-    //       url: "",
-    //       iconifyClass: "ri:github-fill",
-    //     },
-    //     {
-    //       name: "Devfolio",
-    //       url: "",
-    //       iconifyClass: "ri:github-fill",
-    //     },
-    //   ],
-    // },
-    // {
-    //   id: "7",
-    //   name: "Automate Discord Bot",
-    //   url: "https://github.com/harikanani/AutomateDiscordBot",
-    //   description:
-    //     "A Discord Bot to send Automatic messages to serer channel in regular time difference.",
-    //   languages: [
-    //     {
-    //       name: "Python",
-    //       iconifyClass: "logos-python",
-    //     },
-    //     {
-    //       name: "Python Selenium",
-    //       iconifyClass: "logos-selenium",
-    //     },
-    //     {
-    //       name: "Chromium Browser",
-    //       iconifyClass: "openmoji-chromium",
-    //     },
-    //   ],
-    //   links: [
-    //     {
-    //       name: "Github",
-    //       url: "",
-    //       iconifyClass: "ri:github-fill",
-    //     },
-    //     {
-    //       name: "Devfolio",
-    //       url: "",
-    //       iconifyClass: "ri:github-fill",
-    //     },
-    //   ],
-    // },
-    // {
-    //   id: "8",
-    //   name: "Flask Blog",
-    //   url: "https://github.com/harikanani/flask_blog",
-    //   description: "A Simple Blog Web Application made using Flask Framework",
-    //   languages: [
-    //     {
-    //       name: "Python",
-    //       iconifyClass: "logos-python",
-    //     },
-    //     {
-    //       name: "Flask",
-    //       iconifyClass: "cib-flask",
-    //     },
-    //     {
-    //       name: "HTML5",
-    //       iconifyClass: "vscode-icons:file-type-html",
-    //     },
-    //     {
-    //       name: "CSS3",
-    //       iconifyClass: "vscode-icons:file-type-css",
-    //     },
-    //   ],
-    //   links: [
-    //     {
-    //       name: "Github",
-    //       url: "",
-    //       iconifyClass: "ri:github-fill",
-    //     },
-    //     {
-    //       name: "Devfolio",
-    //       url: "",
-    //       iconifyClass: "ri:github-fill",
-    //     },
-    //   ],
-    // },
-    // {
-    //   id: "9",
-    //   name: "Netflix top series",
-    //   url: "https://github.com/harikanani/netflix-top-series",
-    //   description: "List of Top Netflix Series which is deployed to vercel.",
-    //   languages: [
-    //     {
-    //       name: "JavaScript",
-    //       iconifyClass: "logos-javascript",
-    //     },
-    //     {
-    //       name: "ReactJS",
-    //       iconifyClass: "logos-react",
-    //     },
-    //     {
-    //       name: "HTML5",
-    //       iconifyClass: "logos-html-5",
-    //     },
-    //     {
-    //       name: "CSS3",
-    //       iconifyClass: "logos-css-3",
-    //     },
-    //   ],
-    //   links: [
-    //     {
-    //       name: "Github",
-    //       url: "",
-    //       iconifyClass: "ri:github-fill",
-    //     },
-    //     {
-    //       name: "Devfolio",
-    //       url: "",
-    //       iconifyClass: "ri:github-fill",
-    //     },
-    //   ],
-    // },
-    {
-      id: "10",
-      name: "COVID-19 Tracker",
-      url: "https://github.com/harikanani/Covid19TrackerReact",
-      description:
-        "Simple Covid-19 Tracker made using React and deployed to Vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/Covid19TrackerReact",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    // {
-    //   id: "11",
-    //   name: "Food Order Static Website",
-    //   url: "https://github.com/harikanani/food-order-website",
-    //   description:
-    //     "A simple static website related to food restaurants service. this is reasponsive as well.",
-    //   languages: [
-    //     {
-    //       name: "HTML5",
-    //       iconifyClass: "logos-html-5",
-    //     },
-    //     {
-    //       name: "CSS3",
-    //       iconifyClass: "logos-css-3",
-    //     },
-    //     {
-    //       name: "JavaScript",
-    //       iconifyClass: "logos-javascript",
-    //     },
-    //     {
-    //       name: "PHP",
-    //       iconifyClass: "logos-php",
-    //     },
-    //   ],
-    //   links: [
-    //     {
-    //       name: "Github",
-    //       url: "",
-    //       iconifyClass: "ri:github-fill",
-    //     },
-    //     {
-    //       name: "Devfolio",
-    //       url: "",
-    //       iconifyClass: "ri:github-fill",
-    //     },
-    //   ],
-    // },
-    // {
-    //   id: "12",
-    //   name: "NFT Launchpad",
-    //   url: "https://deliquescent-cents.000webhostapp.com/",
-    //   description: "NFT Launchpad crypto site portfolio",
-    //   languages: [
-    //     {
-    //       name: "HTML5",
-    //       iconifyClass: "logos-html-5",
-    //     },
-    //     {
-    //       name: "CSS3",
-    //       iconifyClass: "logos-css-3",
-    //     },
-    //     {
-    //       name: "JavaScript",
-    //       iconifyClass: "logos-javascript",
-    //     },
-    //     {
-    //       name: "ReactJS",
-    //       iconifyClass: "logos-react",
-    //     },
-    //   ],
-    //   links: [
-    //     {
-    //       name: "Github",
-    //       url: "https://github.com/harikanani/nft-launchpad",
-    //       iconifyClass: "ri:github-fill",
-    //     },
-    //   ],
-    // },
   ],
 };
 
