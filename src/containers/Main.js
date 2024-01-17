@@ -12,7 +12,7 @@ export default function Main(propss) {
   if (settings.isSplash) {
     return (
       <div>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
           <Switch>
             <Route
               path="/"
@@ -87,13 +87,13 @@ export default function Main(propss) {
               )}
             />
           </Switch>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     );
   } else {
     return (
       <div>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
           <Switch>
             <Route
               path="/"
@@ -158,7 +158,7 @@ export default function Main(propss) {
               )}
             />
           </Switch>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     );
   }
