@@ -71,10 +71,24 @@ const skills = {
           },
         },
         {
+          skillName: "React Native",
+          fontAwesomeClassname: "logos-react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "logos-nodejs",
           style: {
             color: "#339933",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
+          style: {
+            color: "#3776AB",
           },
         },
         {
@@ -105,13 +119,13 @@ const skills = {
             color: "#3DDC84",
           },
         },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
+        // {
+        //   skillName: "Java",
+        //   fontAwesomeClassname: "simple-icons:java",
+        //   style: {
+        //     color: "#f89820",
+        //   },
+        // },
         // {
         //   skillName: "Flutter",
         //   fontAwesomeClassname: "simple-icons:flutter",
@@ -155,27 +169,20 @@ const skills = {
             color: "#E94E32",
           },
         },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
-        },
+        // {
+        //   skillName: "C",
+        //   fontAwesomeClassname: "simple-icons:c",
+        //   style: {
+        //     color: "#E94E32",
+        //   },
+        // },
+        // {
+        //   skillName: "C++",
+        //   fontAwesomeClassname: "simple-icons:cplusplus",
+        //   style: {
+        //     color: "#E94E32",
+        //   },
+        // },
       ],
     },
   ],
@@ -283,7 +290,7 @@ const experience = {
           company: "West Agile labs",
           company_url: "https://www.westagilelabs.com/",
           logo_path:
-            "https://media.licdn.com/dms/image/C510BAQFQoyxcyMSp-Q/company-logo_200_200/0/1550655731099?e=1705536000&v=beta&t=JEZrGk-lPCFKyyXkY5htW0647WAv7U_p7YlaTO3kRcw",
+            "https://s3.amazonaws.com/saikiran645assignment1.com/west_agile_labs_logo.jpeg",
           duration: "Oct 2020 - Dec 2022",
           location: "Hyderabad, Telangana",
           description: `During my tenure as a Senior Software Engineer at West Agile Labs in India from May 2021 to December 2022, I undertook a variety of pivotal roles that significantly enhanced our web solutions. I was responsible for the design, development, and rigorous testing of various web components using technologies such as HTML5, CSS, JavaScript, TypeScript, and React JS. This meticulous work resulted in a commendable 15% improvement in website load times and a 20% surge in user engagement. Furthermore, in my capacity as Squad Lead, I spearheaded a team of 10 members. My leadership involved overseeing sprint brainstorming sessions and ensuring efficient task breakdown and distribution among developers. One of my key contributions was fostering robust collaboration between the development and product teams, guaranteeing streamlined coordination. On the backend, I developed and optimized RESTful APIs and services that seamlessly integrated with our MongoDB data storage layer, which led to a notable 40% reduction in response time. The server-side logic was primarily built using NodeJS and the Express framework, enhanced with middle-wares to adeptly manage HTTP requests. I also engineered AWS Lambda functions tailored to handle intricate business rules associated with debit card transactions, ensuring we remained compliant with regulatory standards. To maintain the highest quality of our solutions, I proficiently utilized testing tools like Jest, Enzyme, Mocha, and Chai to comprehensively test both our React components and backend APIs.`,

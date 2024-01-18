@@ -40,7 +40,10 @@ export default function ProjectCard({ repo, theme }) {
               {repo.name}
             </p>
           </div>
-          <div className="repo-name-div" style={{ height: "200px" }}>
+          <div
+            className="repo-name-div"
+            style={{ height: "250px", fontSize: "14px" }}
+          >
             <p className="repo-description" style={{ color: theme.text }}>
               {repo.description}
             </p>

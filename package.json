@@ -2,7 +2,6 @@
   "private": true,
   "name": "personal-portfolio",
   "version": "1.0.0",
-  "homepage": "http://saikiranreddykudumula.github.io/personal-portfolio/",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
