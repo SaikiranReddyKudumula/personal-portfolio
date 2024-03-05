@@ -15,16 +15,16 @@ const greeting = {
   full_name: "Sai Kiran Reddy Kudumula",
   subTitle: "FullStack Developer, Always learning.",
   resumeLink:
-    "https://s3.amazonaws.com/saikiran645assignment1.com/Portfolio_files/Sai_Kiran+Reddy+Kudumula_Resume.pdf",
-  mail: "mailto:skudumul@gmu.edu",
+    "https://s3.amazonaws.com/saikiran645assignment1.com/SAI+KIRAN+-+SR+.+Frond+End+Developer+(1).docx",
+  mail: "mailto:saikiranreddykudumula66@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/SaikiranReddyKudumula",
-  linkedin: "https://www.linkedin.com/in/sai-kiran-reddy-kudumula-62ab54141/",
-  gmail: "skudumul@gmu.edu",
-  gitlab: "https://gitlab.com/harikanani",
+  linkedin: "https://www.linkedin.com/in/sai-kiran-62ab54141/",
+  gmail: "saikiranreddykudumula66@gmail.com",
+  gitlab: "",
 };
 
 const skills = {
@@ -191,11 +191,11 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "George Mason University",
+      title: "University of Maryland, Baltimore County",
       subtitle: "Masters in Computer Science",
-      logo_path: "gmu_univ.png",
-      alt_name: "GMU",
-      duration: "2023 - Present",
+      logo_path: "UMBC.png",
+      alt_name: "UMBC",
+      duration: "2013 - 2014",
       cgpa: "4.0 / 4.0",
       descriptions: [
         "⚡I have secured 4.00 CGPA.",
@@ -208,14 +208,14 @@ const degrees = {
         "User Interface Design/Development",
         "Software Engineering Real Time Embedded Systems",
       ],
-      website_link: "https://www.gmu.edu/",
+      website_link: "https://umbc.edu/",
     },
     {
-      title: "Vellore Institute of Technology",
+      title: "GITAM University",
       subtitle: "M.Tech Software Engineering (5 Year Integrated Programme)",
-      logo_path: "vellore_univ.png",
+      logo_path: "Gitam.png",
       alt_name: "SSGC",
-      duration: "2014 - 2019",
+      duration: "2007 - 2012",
       cgpa: "8.0 / 8.0",
       descriptions: [
         "⚡I have secured 8.00 CGPA.",
@@ -234,23 +234,21 @@ const degrees = {
         "Information and System Security",
         "Software Design and Development Project",
       ],
-      website_link:
-        "https://vit.ac.in/schools/school-of-computer-science-engineering-and-information-systems-for-pg-courses",
+      website_link: "https://www.gitam.edu/",
     },
   ],
 };
 
 const certifications = {
   certifications: [
-    {
-      title: "Hackathon 2023",
-      subtitle: "Patriot_Hacks",
-      logo_path: "patriot_hacks.png",
-      certificate_link: "https://devpost.com/software/connect-jgie9l",
-      alt_name: "hackathon",
-      color_code: "#E2405F",
-    },
-
+    // {
+    //   title: "Hackathon 2023",
+    //   subtitle: "Patriot_Hacks",
+    //   logo_path: "patriot_hacks.png",
+    //   certificate_link: "https://devpost.com/software/connect-jgie9l",
+    //   alt_name: "hackathon",
+    //   color_code: "#E2405F",
+    // },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
@@ -275,49 +273,50 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Full Stack Developer (Freelancer)",
-          company: "Swara",
-          company_url: "https://swara.video/",
+          title: "Senior UI Developer",
+          company: "Lithia Motors INC",
+          company_url: "https://www.lithia.com/",
           logo_path:
-            "https://hanaesolutions.com/wp-content/uploads/2022/12/download-1.png",
-          duration: "Aug 2022 - October 2023",
-          location: "Fairfax, VA",
-          description: `At Swara OTT, I played a pivotal role in leveraging AWS technologies to craft a robust and cost-efficient serverless architecture. One of my notable achievements was the successful implementation of AWS Lambda functions, which led to a significant reduction in operational costs by 30%. Ensuring user security and ease of access, I established a rigorous user authentication and access control system using AWS Cognito. This not only fortified the platform's security but also provided a user-friendly authentication process for our users. Further enhancing our platform's capabilities, I made use of AWS Elemental MediaConvert and MediaTailor. This approach streamlined the video transcoding process into the HLS format. Moreover, it enabled seamless advertisement insertion, which greatly augmented content accessibility and opened new avenues for content monetization.`,
+            "https://pictures.dealer.com/l/lithiagroupsite/0632/6f6e4c0f357c0fe67416990a5e64dcabx.jpg?impolicy=downsize&h=150",
+          duration: "Jan 2023 - Present",
+          location: "Remote, USA",
+          description: `
+As a Senior UI Developer at Lithia Motors Inc. since January 2023, I have specialized in crafting user interfaces using the Angular Framework for single-page application development. My role involves enhancing user experiences by designing innovative web features with Angular and TypeScript, incorporating IBM Carbon Design Components, and integrating functionalities such as drag-and-drop, multi-select, and various charts. I have a strong focus on data binding, dependency injection, and the development of responsive, cross-browser compatible layouts using HTML/CSS/SASS. Additionally, I've created custom directives and filters in TypeScript, developed reusable UI components, and utilized Angular for data representation with HighCharts. My work also extends to using Angular 11 and 14 for component-based architecture and reactive forms, respectively, alongside RXJS for managing asynchronous data. I ensure efficient design and development of user interaction screens, implement security measures like AuthGuards and HTTP interceptors, and contribute to quality assurance and code reviews. My toolkit includes AWS Code Commit, GitHub, and unit testing with Karma, underpinning a commitment to quality and compliance in software development.`,
           color: "#0071C5",
         },
         {
-          title: "Senior Software Engineer",
-          company: "West Agile labs",
-          company_url: "https://www.westagilelabs.com/",
+          title: "Senior UI Developer",
+          company: "Macmillan",
+          company_url: "https://us.macmillan.com/",
           logo_path:
-            "https://s3.amazonaws.com/saikiran645assignment1.com/west_agile_labs_logo.jpeg",
-          duration: "Oct 2020 - Dec 2022",
-          location: "Hyderabad, Telangana",
-          description: `During my tenure as a Senior Software Engineer at West Agile Labs in India from May 2021 to December 2022, I undertook a variety of pivotal roles that significantly enhanced our web solutions. I was responsible for the design, development, and rigorous testing of various web components using technologies such as HTML5, CSS, JavaScript, TypeScript, and React JS. This meticulous work resulted in a commendable 15% improvement in website load times and a 20% surge in user engagement. Furthermore, in my capacity as Squad Lead, I spearheaded a team of 10 members. My leadership involved overseeing sprint brainstorming sessions and ensuring efficient task breakdown and distribution among developers. One of my key contributions was fostering robust collaboration between the development and product teams, guaranteeing streamlined coordination. On the backend, I developed and optimized RESTful APIs and services that seamlessly integrated with our MongoDB data storage layer, which led to a notable 40% reduction in response time. The server-side logic was primarily built using NodeJS and the Express framework, enhanced with middle-wares to adeptly manage HTTP requests. I also engineered AWS Lambda functions tailored to handle intricate business rules associated with debit card transactions, ensuring we remained compliant with regulatory standards. To maintain the highest quality of our solutions, I proficiently utilized testing tools like Jest, Enzyme, Mocha, and Chai to comprehensively test both our React components and backend APIs.`,
+            "https://d3ialxc06lvqvq.cloudfront.net/wp-content/uploads/2023/04/27022218/macmillan-logo-red-1-320x71.png",
+          duration: "June 2020 - Dec 2022",
+          location: "Remote, USA",
+          description: `Spearheaded development of advanced web applications using React, NodeJS, GraphQL, and TypeScript, focusing on translating intricate designs from Figma into responsive, high-quality UIs. Led the creation of modular, reusable React components, enhancing code performance and maintainability. Collaborated with cross-functional teams to align development with business goals, driving TypeScript adoption for improved code quality and developer efficiency. Implemented GraphQL for efficient data fetching, participated in code reviews for quality assurance, and promoted best coding practices. Integrated third-party APIs, optimized microservices communication with Kafka, and utilized Jest and Enzyme for testing. Managed webpack and Jenkins for continuous integration, and worked with AWS services to develop scalable applications. Conducted technical audits to ensure compliance with standards.`,
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
 
         {
-          title: "Software Development Engineer",
-          company: "Devathon",
-          company_url: "https://devathon.com/",
+          title: "Software Developer",
+          company: "Freddie Mac",
+          company_url: "https://www.freddiemac.com/",
           logo_path:
-            "https://devathon.com/wp-content/uploads/2019/05/003-technology.png",
-          duration: "Jun 2019 - May 2021",
-          location: "Hyderabad, Telangana",
-          description: `During my role as a Software Development Engineer at Devathon in India, I was deeply involved in cross-platform mobile development using React Native. I proudly spearheaded the release of apps on both the AppStore and PlayStore. One of my significant accomplishments was the enhancement of the React Native in-store POS application. Through meticulous refactoring of class components, elimination of redundant code, and optimization of dependencies, I achieved a 30% reduction in loading times, boosted the overall responsiveness by 20%, reduced the app size by 25%, and ensured 15% faster rendering.`,
+            "https://www.freddiemac.com/sites/g/files/ynjofi111/themes/site/fm_theme/images/FreddieMacLogo-no-tagline.svg",
+          duration: "Mar 2018 - May 2020",
+          location: "Mclean, VA",
+          description: `Led the development of Figma design prototypes and translated them into responsive ReactJS web applications, including a custom SPA for real-time location sharing, with a focus on mobile-first and cross-browser compatibility. Optimized RESTful APIs and MongoDB interactions, reducing response times by 40%, and integrated third-party APIs to enhance web application functionality. Improved a React Native POS application, increasing efficiency and user experience. Employed advanced web development practices using React, Material UI, Redux, and TypeScript, focusing on creating interactive UIs with one-way data flow and a custom reusable components library. Spearheaded the conversion of UX designs into functional React components and developed React UI libraries to promote code reusability. Implemented Redis for faster data access, collaborated with cross-functional teams to align development with business goals, and maintained high code quality with regular reviews and optimization techniques. Engaged in comprehensive testing with Jest, Enzyme, Mocha, and Chai, ensuring robust application performance and user satisfaction.`,
           color: "#ee3c26",
         },
         {
-          title: "Software Trainee",
-          company: "Devathon",
-          company_url: "https://devathon.com/",
+          title: "Contract Developer",
+          company: "Ford Motors Inc.",
+          company_url: "https://www.ford.com/",
           logo_path:
-            "https://devathon.com/wp-content/uploads/2019/05/003-technology.png",
-          duration: "Jun 2018 - Jun 2019",
-          location: "Hyderabad, Telangana",
-          description: `During my tenure as a Software Trainee at Devathon in India from June 2018 to June 2019, I was deeply involved in front-end development and mobile application creation. I took the lead in building a responsive user interface for customer-facing web pages, harnessing the power of Bootstrap and ReactJs. My role also encompassed the implementation of pivotal features such as real-time messaging, push notifications, and robust user authentication, all of which I achieved using Firebase. To ensure the integrity of our source code and maintain seamless collaboration, I adeptly used Git for version control. Concurrently, I was responsible for overseeing the builds and meticulously documenting our processes in Confluence. Venturing into mobile development, I utilized Xcode for iOS-centric tasks, ensuring our applications were not only compatible with Apple devices but also adhered to the stringent iOS design guidelines. In parallel, for our Android development needs, I employed Android Studio, with a keen focus on performance optimization and enhancing the platform-specific user interface.`,
+            "https://pbs.twimg.com/profile_images/1390283337055490048/Dt5ZJBL6_400x400.png",
+          duration: "Jun 2016 - Mar 2018",
+          location: "Dearbone, MI",
+          description: `Developed responsive user interfaces for customer-facing websites using HTML5, CSS3, JavaScript, Bootstrap, SASS, LESS, Angular, Angular Material, Bootstrap, Highcharts, and PrimeNG library, prioritizing functionality and user experience. Implemented real-time messaging, push notifications, and user authentication with Firebase to enhance user interaction and security. Styled web pages with SASS for dynamic behavior like variables, mixins, operations, and functions. Managed Angular UI and architecture, creating a components library that includes Tree, Slide-View, and Table Grid. Utilized Angular for frontend development, leveraging NPM for dependencies, and focused on components, forms, events, router, routing guards, services, and interceptors. Employed Highcharts for data visualization and developed Angular interceptors for handling HTTP API calls, managing authentication and errors. Configured TSLint for code quality and worked with MongoDB for database queries. Enhanced web app efficiency with Angular's data flow architecture, creating a lightweight application that searches projects on GitHub via keywords.`,
           color: "#ee3c26",
         },
       ],
